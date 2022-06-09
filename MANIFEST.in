@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include oc_blue_theme *.css
+recursive-include oc_blue_theme *.csv
+recursive-include oc_blue_theme *.html
+recursive-include oc_blue_theme *.ico
+recursive-include oc_blue_theme *.js
+recursive-include oc_blue_theme *.json
+recursive-include oc_blue_theme *.md
+recursive-include oc_blue_theme *.png
+recursive-include oc_blue_theme *.py
+recursive-include oc_blue_theme *.svg
+recursive-include oc_blue_theme *.txt
+recursive-exclude oc_blue_theme *.pyc
